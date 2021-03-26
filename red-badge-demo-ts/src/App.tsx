@@ -1,10 +1,12 @@
 import React from "react";
-import StateExample from './components/StateExample.jsx';
+import ClassDeckFetch from "./components/ClassDeckFetch.jsx";
+// import StateExample from './components/StateExample.jsx';
 
 function App() {
   return (
   <div>
-    <StateExample />
+    {/* <StateExample /> */}
+    <ClassDeckFetch />
   </div>
   )
 }

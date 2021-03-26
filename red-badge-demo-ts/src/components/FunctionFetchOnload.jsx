@@ -8,6 +8,7 @@ const FunctionFetchOnload = (props) => {
     const url = "https://jsonplaceholder.typicode.com/comments?postId=1";
     fetch(url)
       .then((res) => res.json())
+      // .then((json) => console.log(json))
       .then((json) => setBlogPostData(json));
   }
   function displayBlogPosts() {

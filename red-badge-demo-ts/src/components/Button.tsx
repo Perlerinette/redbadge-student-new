@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { isPropertySignature } from 'typescript';
 
 export interface RollButtonProps {
     rollDiceOne(rollNumber: number):void;

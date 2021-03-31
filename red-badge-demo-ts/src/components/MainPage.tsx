@@ -28,9 +28,14 @@ const items = [
   },
 ];
 
-const MainPage = () => {
+interface MainPageProps {
+  title: string;
+}
+
+const MainPage = (props: MainPageProps) => {
   return (
     <Container>
+      <h1>{props.title}</h1>
       <UncontrolledCarousel items={items} />
       <h2>This is my main MainPage</h2>
       <p>
